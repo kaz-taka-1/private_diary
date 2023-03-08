@@ -167,3 +167,6 @@ LOGGING = {
         },
     }
 }
+STATICFILES_DIR = (
+    os.path.join(BASE_DIR, 'static'),
+)
